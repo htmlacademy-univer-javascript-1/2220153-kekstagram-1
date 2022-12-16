@@ -1,6 +1,7 @@
-const isEscape = (evt) => evt.key === 'Escape';
 import { scalingPhotos, restart } from './photoScaling';
 import { doEffects, restartEffects } from './photoEffects';
+const isEscape = (evt) => evt.key === 'Escape';
+
 
 const file = document.querySelector('#upload-file');
 const buttonCancel = document.querySelector('#upload-cancel');

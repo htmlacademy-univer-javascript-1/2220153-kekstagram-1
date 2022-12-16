@@ -8,7 +8,7 @@ const START_SCALING = 0.5;
 let scaling = START_SCALING;
 
 
-const buttons = document.querySelector('.img-upload__scale');
+const button = document.querySelector('.img-upload__scale');
 const scaleValue = document.querySelector('.scale__control--value');
 
 
